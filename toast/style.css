@@ -1,0 +1,12 @@
+.site-content {
+  width: 100vh;
+  height: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  position: absolute;
+  height: 300px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
